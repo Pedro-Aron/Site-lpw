@@ -1,0 +1,43 @@
+header 
+{
+    box-sizing: border-box;
+    background-color: lightblue;
+    color: black;
+    margin: 0%;
+    border: 0.5% solid #0005;
+    box-shadow: 0px 2px 2px #0000;  
+    padding: 0em 0em;
+    grid-column: 1 / 4;
+}
+
+header img 
+{
+    width: 30vw;
+}
+
+nav ul
+{
+    font-size: 5vh;
+    width: 60%;
+    float: right;
+    padding: 0em 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+body 
+{
+    padding: 0%;
+    display: grid;
+}
+
+#ladoesquerdo
+{
+    grid-column: 1 / 3;
+    background-color: blue;
+}
