@@ -18,6 +18,10 @@ header img
     width: 30vw;
 }
 
+nav p {
+    flex-direction: row;
+}
+
 nav ul
 {
     font-size: 5vh;
