@@ -10,15 +10,12 @@ header
     grid-column: 1 / 4;
 }
 
-<<<<<<< HEAD
 header img
-=======
 header:first-child {
     margin-top: 0%;
 }
 
 header img
->>>>>>> e1ab27981d1db25e565b4dafd1811f6752458747
 {
     width: 30vw;
 }
