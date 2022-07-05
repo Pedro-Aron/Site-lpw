@@ -30,7 +30,8 @@ nav ul
     justify-content: space-evenly;
 }
 
-nav ul li {
+nav ul li 
+{
     text-align: center;
 }
 
