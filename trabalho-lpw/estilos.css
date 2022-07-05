@@ -10,7 +10,6 @@ header
     grid-column: 1 / 4;
 }
 
-header img
 header:first-child {
     margin-top: 0%;
 }
