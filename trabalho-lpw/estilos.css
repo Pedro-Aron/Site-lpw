@@ -10,7 +10,8 @@ header
     grid-column: 1 / 4;
 }
 
-header:first-child {
+header:first-child 
+{
     margin-top: 0%;
 }
 
