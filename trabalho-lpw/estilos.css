@@ -10,7 +10,11 @@ header
     grid-column: 1 / 4;
 }
 
-header img cucucucucu
+header:first-child {
+    margin-top: 0%;
+}
+
+header img
 {
     width: 30vw;
 }
