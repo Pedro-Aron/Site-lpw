@@ -1,15 +1,15 @@
 body {
     margin: 0%;
+    padding: 0%;
+    display: grid;
+    background-image: linear-gradient(45deg, black, gray);
 }
 
-header 
+header
 {
-    box-sizing: border-box;
     background-color: lightblue;
-    color: black;
     margin: 0%;
-    border: 0.25% solid #0005;
-    padding: 0%;
+    border: 0.5vh solid #0005;
 }
 
 header:first-child 
@@ -19,15 +19,19 @@ header:first-child
 
 header img
 {
-    width: 30vw;
+    width: 20vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0vw;
+    display: block;
+    margin: auto;
 }
 
 nav ul
 {
-    font-size: 5vh;
-    width: 60%;
-    float: right;
-    padding: 0em 0;
+    font-size: 1.5vw;
+    padding: 0%;
+    margin: 0%;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
@@ -38,14 +42,71 @@ nav ul li
     text-align: center;
 }
 
-body 
+.ladoesquerdo
 {
-    padding: 0%;
-    display: grid;
+    width: 48%;
+    float: left;
+    margin: 1%;
 }
 
-#ladoesquerdo
-{
-    grid-column: 1 / 3;
-    background-color: blue;
+article h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.ladodireito {
+    box-sizing: border-box;
+    float: right;
+    width: 48%;
+    margin: 1%;
+    border: 0.25vw solid lightblue;
+}
+
+.tabela table {
+    clear: left;
+    border-collapse: collapse;
+    width: 48%;
+    margin: 1%;
+}
+
+td, th {
+    text-align: center;
+    padding: 0.75vw;
+    border: 0.2vw groove #0005;
+}
+
+table {
+    background-color: lightblue;
+    color: black;
+}
+
+#pq-guerras {
+    clear: both;
+    float: right;
+    margin-bottom: 5%;
+    width: 48%;
+    margin: 1%;
+}
+
+footer{
+    background-color: lightblue;
+    margin: 0%;
+    border: 0.5vh solid #0005;
+    
+}
+
+footer h2 {
+    color: black;
+}
+
+footer ul {
+    font-size: 1.5vw;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
 }
