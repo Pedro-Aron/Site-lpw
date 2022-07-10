@@ -4,10 +4,16 @@ body {
     background: rgb(245, 243, 89);
 }
 
-header {
+#menupages {
+    height: 4vh;
+    border-bottom: 0.5vh solid #0005;
+    position: sticky;
+    top: 0;
+}
+
+header, #menupages {
     background-color: rgb(194, 194, 55);
     margin: 0;
-    border: 0.5vh solid #0005;
 }
 
 header img {
@@ -20,7 +26,7 @@ header img {
 }
 
 nav ul {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     padding: 0%;
     margin: 0%;
     list-style-type: none;
@@ -29,7 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-bottom: .3%;
+    padding-top: .2%;
     text-align: center;
 }
 
