@@ -4,6 +4,40 @@ body {
     background: rgb(245, 243, 89);
 }
 
+p, #texto-um p {
+    font-family: 'Barlow', sans-serif;
+}
+
+p::selection {
+    color: white;
+    background-color: black;
+}
+
+span::selection {
+    color: white;
+    background-color: black;
+}
+
+mark::selection {
+    color: white;
+    background-color: black;
+}
+
+footer li::selection, footer h2::selection {
+    color: white;
+    background-color: black;
+}
+
+h1::selection, h2::selection {
+    color: white;
+    background-color: black;
+}
+
+#menupages span, #menupages a, footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
 #menupages {
     z-index: 2;
     height: 4vh;
@@ -95,7 +129,7 @@ a.menu:hover {
 }
 
 h1, h2 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Splash', cursive;
     text-align: center;
 }
 
@@ -135,7 +169,7 @@ footer ul {
 
 #assassino {
     text-align: center;
-    display: inline-block;
+    display: block;
     margin-right: 2.5%;
     margin-top: 1.5%;
     width: 25%;
@@ -181,4 +215,10 @@ iframe {
     box-sizing: border-box;
     width: 112vh;
     height: 63vh;
+}
+
+
+#menupages span::selection, #menupages a::selection {
+    color: white;
+    background-color: black;
 }
