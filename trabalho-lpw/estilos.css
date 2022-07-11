@@ -1,3 +1,60 @@
+p {
+    text-align: justify;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+mark {
+    color: black;
+}
+
+table, footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menupages span, #menupages a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p::selection{
+    color: black;
+    background-color: lightblue;
+}
+
+h1::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+h2::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+caption::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+caption {
+    color: white;
+}
+
+th::selection {
+    color: white;
+    background-color: black;
+}
+
+td::selection {
+    color: white;
+    background-color: black;
+}
+
+thead::selection {
+    color: white;
+    background-color: black;
+}
+
 body {
     margin: 0%;
     padding: 0%;
@@ -47,7 +104,7 @@ nav ul li {
 }
 
 article h2 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Splash', cursive;
     color: white;
     font-size: 2vw;
     text-align: center;
@@ -195,4 +252,22 @@ td span {
 #uruguai {
     background-image: url("imgs/bandeiras/uruguai.png");
     padding-left: 3vw;
+}
+
+span::selection {
+    color: white;
+    background-color: black;
+}
+
+ul > li::selection {
+    color: white;
+    background-color: black;
+}
+
+article p {
+    font-size: 1.2em;
+}
+
+.centrotab {
+    text-align: center;
 }
