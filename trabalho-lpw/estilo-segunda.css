@@ -4,6 +4,41 @@ body {
     background: rgb(108, 219, 163);
 }
 
+#menupages span::selection, #menupages a::selection {
+    color: white;
+    background-color: black;
+}
+
+p::selection {
+    color: white;
+    background-color: black;
+}
+
+h1::selection, h2::selection {
+    color: white;
+    background-color: black;
+}
+
+span::selection {
+    color: white;
+    background-color: black;
+}
+
+mark::selection {
+    color: white;
+    background-color: black;
+}
+
+footer li::selection, footer h2::selection {
+    color: white;
+    background-color: black;
+}
+
+h1::selection, h2::selection {
+    color: white;
+    background-color: black;
+}
+
 #menupages {
     height: 4vh;
     border: 0.5vh solid #0005;
@@ -49,7 +84,7 @@ a.menu:hover {
 }
 
 h1, h2 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Splash', cursive;
     text-align: center;
 }
 
@@ -199,15 +234,14 @@ article {
     margin-top: 90%;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 95%;
     box-sizing: border-box;
 }
 
 dl {
-    border: 2px solid #0005;
-    padding: 2px;
-    background-color:rgb(0, 255, 128);
-    border-radius: 10px;
+    border-top: 2px solid #0005;
+    display: flex;
+    flex-direction: row;
 }
 
 dl img {
@@ -222,6 +256,8 @@ dl img {
 }
 
 dt {
+    width: 33.3%;
+    text-align: center;
     color: #0007;
     font-size: x-large;
     font-weight: bold;
@@ -234,6 +270,30 @@ dd {
     text-align: center;
 }
 
-dt:not(:first-of-type) {
-    border-top: 2px solid #0005;
+#annefrank {
+    width: 40%;
+}
+
+#documentario {
+    width: 100%
+}
+
+footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menupages span, #menupages a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+dl {
+    font-family: 'Ubuntu', sans-serif;
+}
+p, article p {
+    font-family: 'Barlow', sans-serif;
+}
+
+dt::selection {
+    color: white;
+    background-color: black;
 }
