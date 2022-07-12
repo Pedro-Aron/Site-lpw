@@ -3,7 +3,6 @@ body {
     padding: 0;
     background: rgb(250, 248, 163);
 }
-
 p, #texto-um p {
     font-family: 'Barlow', sans-serif;
 }
@@ -39,9 +38,9 @@ h1::selection, h2::selection {
 
 
 #menupages {
-    z-index: 2;
-    height: 4vh;
-    border-bottom: 0.5vh solid #0005;
+    padding-top: .7vw;
+    height: 2.2vw;
+    border-bottom: .5vw solid #0005;
     position: sticky;
     top: 0;
 }
@@ -58,6 +57,14 @@ header img {
     padding-bottom: 0vw;
     display: block;
     margin: auto;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+p {
+    font-size: 1.5vw;
 }
 
 nav ul {
@@ -84,19 +91,26 @@ a.menu:hover {
 }
 
 #img1 {
-    margin-right: 2.5%;
-    margin-top: 6%;
-    width: 40%;
+    box-sizing: border-box;
+    margin: 0% 2.5%;
+    width: 45%;
     float: right;
 }
 
 #texto-um {
-    float: left;
     clear: both;
-    margin-left: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0%;
-    width: 52.5%;
+    width: 75%;
     text-align: justify;
+    border: .5vw solid gray;
+    background-color: rgb(194, 194, 55);
+}
+
+#texto-um p {
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 #imagem-um {
@@ -107,8 +121,8 @@ a.menu:hover {
 
 #texto-dois {
     clear: both;
-    width: 80%;
-    margin-top: 0;
+    width: 75%;
+    padding-top: 2%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -128,7 +142,7 @@ a.menu:hover {
     margin-top: 30%; 
 }
 
-h1, h2 {
+h2 {
     font-family: 'Splash', cursive;
     text-align: center;
 }
@@ -138,7 +152,7 @@ footer {
     clear: both;
     background-color: rgb(194, 194, 55);
     margin: 0;
-    border-top: 0.5vh solid #0005;
+    border-top: .5vw solid #0005;
 }
 
 footer h2 {
@@ -171,7 +185,7 @@ footer ul {
     text-align: center;
     display: block;
     margin-right: 2.5%;
-    margin-top: 1.5%;
+    margin-top: 2%;
     width: 25%;
     float: right;
 }
@@ -179,7 +193,7 @@ footer ul {
 #francisco {
     text-align: center;
     float: left;
-    margin-top: 1.5%;
+    padding-top: 2%;
     margin-left: 2.5%;
     width: 25%;
 }
@@ -187,8 +201,12 @@ footer ul {
 #artigosobre {
     box-sizing: border-box;
     display: inline-block;
-    margin: 5% 3.75% 0 3.75%;
-    width: 37.5%;
+    margin: 2% 2%;
+    width: 41%;
+}
+
+#artigosobre > h2 {
+    margin-top: 0%;
 }
 
 
@@ -213,12 +231,49 @@ iframe {
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-    width: 112vh;
-    height: 63vh;
+    width: 80vw;
+    height: 45vw;
 }
 
 
 #menupages span::selection, #menupages a::selection {
     color: white;
     background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    #francisco {
+        box-sizing: border-box;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    #artigosobre {
+        clear: both;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    #assassino {
+        box-sizing: border-box;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    #texto-um {
+        width: 90%;
+    }
+
+    #texto-dois {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #img1 {
+        width: 95%;
+    }
 }
