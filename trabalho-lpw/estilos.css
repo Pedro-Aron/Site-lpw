@@ -90,7 +90,6 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    box-sizing: border-box;
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
