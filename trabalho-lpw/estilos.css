@@ -38,6 +38,7 @@ caption::selection {
 
 caption {
     color: white;
+    font-size: 1.1vw;
 }
 
 th::selection {
@@ -63,8 +64,8 @@ body {
 }
 
 #menupages {
-    height: 4vh;
-    border-bottom: 0.5vh solid #0005;
+    height: 3.5vw;
+    border-bottom: 0.3vw solid #0005;
     position: sticky;
     top: 0;
 }
@@ -85,15 +86,17 @@ header img {
 
 nav ul {
     font-size: 1.3vw;
-    padding: 0%;
     margin: 0%;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
+
 nav ul li {
-    padding-top: .2%;
     text-align: center;
 }
 
@@ -106,7 +109,7 @@ nav ul li {
 article h2 {
     font-family: 'Splash', cursive;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
 }
 
@@ -115,6 +118,7 @@ article h2 {
     float: right;
     width: 48%;
     margin: 1%;
+    margin-top: 4vw;
     border: 0.25vw solid lightblue;
 }
 
@@ -126,6 +130,7 @@ article h2 {
 }
 
 td, th {
+    font-size: 1.3vw;
     text-align: justify;
     padding: 0.75vw;
     border: 0.2vw groove #0005;
@@ -265,9 +270,31 @@ ul > li::selection {
 }
 
 article p {
-    font-size: 1.2em;
+    font-size: 1.5vw;
 }
 
 .centrotab {
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .ladoesquerdo {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .ladodireito {
+        width: 98%;
+        margin-top: 2vw;
+    }
+
+    #pq-guerras {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .tabela table {
+        width: 98%; 
+        margin-top: 2vw;
+    }
 }
