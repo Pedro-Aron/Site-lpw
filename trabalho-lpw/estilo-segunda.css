@@ -4,37 +4,7 @@ body {
     background: rgb(108, 219, 163);
 }
 
-#menupages span::selection, #menupages a::selection {
-    color: white;
-    background-color: black;
-}
-
-p::selection {
-    color: white;
-    background-color: black;
-}
-
-h1::selection, h2::selection {
-    color: white;
-    background-color: black;
-}
-
-span::selection {
-    color: white;
-    background-color: black;
-}
-
-mark::selection {
-    color: white;
-    background-color: black;
-}
-
-footer li::selection, footer h2::selection {
-    color: white;
-    background-color: black;
-}
-
-h1::selection, h2::selection {
+#menupages span::selection, #menupages a::selection, p::selection, h1::selection, h2::selection, span::selection, mark::selection, li::selection {
     color: white;
     background-color: black;
 }
@@ -84,6 +54,7 @@ a.menu:hover {
 }
 
 h1, h2 {
+    padding-top: 3%;
     font-family: 'Splash', cursive;
     text-align: center;
 }
@@ -208,6 +179,7 @@ article {
     text-align: justify;
     background-color: rgb(0, 255, 128);
     box-sizing: border-box;
+    margin-top: 5%;
     margin-right: 2.5%;
     float: right;
     width: 30%;
@@ -231,7 +203,7 @@ article {
 }
 
 #obras {
-    margin-top: 90%;
+    clear: both;
     margin-right: auto;
     margin-left: auto;
     width: 95%;
