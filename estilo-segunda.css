@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(108, 219, 163);
+}
+
+#menupages span::selection, #menupages a::selection, p::selection, h1::selection, h2::selection, span::selection, mark::selection, li::selection {
+    color: white;
+    background-color: black;
+}
+
+img::selection {
+    background-color: #fc0fc0;
+}
+
+#menupages {
+    height: 3vw;
+    border: .3vw solid #0005;
+    position: sticky;
+    top: 0;
+}
+
+header, #menupages {
+    background-color: rgb(0, 255, 128);
+    margin: 0;
+}
+
+header img {
+    width: 20vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0vw;
+    display: block;
+    margin: auto;
+}
+
+h1, h2 {
+    font-size: 3vw;
+}
+
+p{
+    font-size: 1vw;
+}
+
+nav ul {
+    font-size: 1.3vw;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding-top: .2%;
+    text-align: center;
+}
+
+a.menu {
+    text-decoration: none;
+    color: rgb(146, 127, 0);
+}
+
+a.menu:hover {
+    color: red;
+}
+
+h1, h2 {
+    padding-top: 3%;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    background-color: rgb(0, 255, 128);
+    margin: 0;
+    border-top: 0.5vw solid #0005;
+}
+
+footer h2 {
+    color: black;
+} 
+
+footer ul {
+    font-size: 1.5vw;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
+}
+
+@keyframes piscando {
+    from {background-color: black;}
+    to {background-color: red;}
+}
+
+article {
+    text-align: justify;
+}
+
+#menupages:hover {
+    animation: piscando .175s ease-in-out 0s infinite alternate;
+}
+
+#textoum {
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin: 0 2.5% 0 2.5%;
+}
+
+#imagem1 {
+    box-sizing: border-box;
+    border: 2px solid #0005;
+    margin-top: 1.5%;
+    width: 30%;
+    display: inline-block;
+}
+
+#textodois, #contextoquatro {
+    width: 30%;
+    float: right;
+    margin: 0 2.5%;
+}
+
+.artigoclear {
+    clear: both;
+}
+
+#textoquatro {
+    width: 30%;
+    margin: 0% 2.5%;
+    float: left;
+}
+
+#bomba {
+    margin-top: 5%;
+    box-sizing: border-box;
+    border: 2px solid #0005;
+    width: 30%;
+}
+
+#textocinco {
+    margin: 0 2.5% 0 2.5%;
+    float: left;
+    width: 45%;
+}
+
+#desfecho {
+    margin-top: 0%;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    box-sizing: border-box;
+    border: 2px solid #0005;
+}
+
+#textoseis {
+    width: 60%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: right;
+}
+
+#cobra {
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    float: left;
+    width: 32.5%;
+    box-sizing: border-box;
+    border: 2px solid #0005;
+}
+
+#lado {
+    float: left;
+    width: 65%;
+    margin-right: 2.5%;
+}
+
+#holocausto {
+    text-align: justify;
+    background-color: rgb(0, 255, 128);
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    float: right;
+    width: 30%;
+    border: 2px solid #0005;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#holocausto img{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#hitler, #birkenau {
+    border: 2px solid rgb(0, 255, 128);
+    border-radius: 10px;
+}
+
+#obras h1 {
+    text-align: center;
+}
+
+#obras {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+dl {
+    border-top: 2px solid #0005;
+    display: flex;
+    flex-direction: row;
+}
+
+dl img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(0, 255, 128);
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+dt {
+    width: 33.3%;
+    text-align: center;
+    color: #0007;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#annefrank {
+    width: 40%;
+}
+
+#documentario {
+    width: 100%
+}
+
+footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menupages span, #menupages a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+dl {
+    font-family: 'Ubuntu', sans-serif;
+}
+p, article p {
+    font-family: 'Barlow', sans-serif;
+}
+
+dt::selection {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    #textoum {
+        width: 95%;
+    }
+
+    #imagem1 {
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    #textodois {
+        float: left;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+
+    #lado {
+        width: 60%;
+    } 
+
+    #bomba, #desfecho, #cobra {
+        float: left;
+        margin-top: 2%;
+        margin-left: 2.5%;
+        margin-right: 0%;
+        width: 97.5%;
+    }
+
+    #textoquatro, #contextoquatro, #textocinco, #textoseis {
+        margin-left: 2.5%;
+        margin-right: 0%;
+        width: 97.5%;
+        float: left;
+    }
+
+    #holocausto {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #lado {
+        width: 100%;
+    }
+
+    #bomba, #desfecho, #cobra {
+        width: 95%;
+    }
+
+    #holocausto {
+        width: 95%;
+    }
+}

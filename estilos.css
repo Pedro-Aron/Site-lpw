@@ -1,0 +1,299 @@
+p {
+    text-align: justify;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+mark {
+    color: black;
+}
+
+table, footer {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menupages span, #menupages a {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p::selection{
+    color: black;
+    background-color: lightblue;
+}
+
+h1::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+h2::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+caption::selection {
+    color: black;
+    background-color: lightblue;
+}
+
+caption {
+    color: white;
+    font-size: 1.1vw;
+}
+
+th::selection {
+    color: white;
+    background-color: black;
+}
+
+td::selection {
+    color: white;
+    background-color: black;
+}
+
+thead::selection {
+    color: white;
+    background-color: black;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    background-image: linear-gradient(45deg, black, gray);
+}
+
+#menupages {
+    height: 3.5vw;
+    border-bottom: 0.3vw solid #0005;
+    position: sticky;
+    top: 0;
+}
+
+header, #menupages {
+    background-color: lightblue;
+    margin: 0%;
+}
+
+header img {
+    width: 20vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0vw;
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    font-size: 1.3vw;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+
+nav ul li {
+    text-align: center;
+}
+
+.ladoesquerdo {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+article h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.ladodireito {
+    box-sizing: border-box;
+    float: right;
+    width: 48%;
+    margin: 1%;
+    margin-top: 4vw;
+    border: 0.25vw solid lightblue;
+}
+
+.tabela table {
+    clear: left;
+    border-collapse: collapse;
+    width: 48%;
+    margin: 1%;
+}
+
+td, th {
+    font-size: 1.3vw;
+    text-align: justify;
+    padding: 0.75vw;
+    border: 0.2vw groove #0005;
+}
+
+table {
+    background-color: lightblue;
+    color: black;
+}
+
+#pq-guerras {
+    clear: both;
+    float: right;
+    margin-bottom: 5%;
+    width: 48%;
+    margin: 1%;
+}
+
+footer {
+    background-color: lightblue;
+    margin: 0%;
+    border: 0.5vh solid #0005;
+}
+
+footer h2 {
+    color: black;
+}
+
+footer ul {
+    font-size: 1.5vw;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
+}
+
+.menu, #inicial {
+    border: 1px solid white;
+    border-radius: 50;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    color: black;
+}
+
+
+a.menu:hover {
+    color: red;
+}
+
+a.menu {
+    color: purple;
+}
+
+td span:not(first-child) {
+    margin-top: 10vh;
+}
+
+td span {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inglaterra {
+    background-image: url("imgs/bandeiras/inglaterra.png");
+    padding-left: 3vw;
+}
+.eua {
+    background-image: url("imgs/bandeiras/eua.png");
+    padding-left: 3vw;
+}
+
+.franca {
+    background-image: url("imgs/bandeiras/franca.png");
+    padding-left: 3vw;
+}
+
+#aungria {
+    background-image: url("imgs/bandeiras/aungria.png");
+    padding-left: 3vw;
+}
+
+#russia {
+    background-image: url("imgs/bandeiras/russia.png");
+    padding-left: 3vw;
+}
+
+#prussia {
+    background-image: url("imgs/bandeiras/prussia.png");
+    padding-left: 3vw;
+}
+
+#japao {
+    background-image: url("imgs/bandeiras/japao.png");
+    padding-left: 3vw;
+}
+
+#italia {
+    background-image: url("imgs/bandeiras/italia.jpg");
+    padding-left: 3vw;
+}
+
+#alemanha {
+    background-image: url("imgs/bandeiras/alemanha.png");
+    padding-left: 3vw;
+}
+
+#brasil {
+    background-image: url("imgs/bandeiras/brasil.png");
+    padding-left: 3vw;
+}
+
+#paraguai {
+    background-image: url("imgs/bandeiras/paraguai.png");
+    padding-left: 3vw;
+}
+
+#argentina {
+    background-image: url("imgs/bandeiras/argentina.png");
+    padding-left: 3vw;
+}
+
+#uruguai {
+    background-image: url("imgs/bandeiras/uruguai.png");
+    padding-left: 3vw;
+}
+
+span::selection {
+    color: white;
+    background-color: black;
+}
+
+ul > li::selection {
+    color: white;
+    background-color: black;
+}
+
+article p {
+    font-size: 1.5vw;
+}
+
+.centrotab {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .ladoesquerdo {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .ladodireito {
+        width: 98%;
+        margin-top: 2vw;
+    }
+
+    #pq-guerras {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .tabela table {
+        width: 98%; 
+        margin-top: 2vw;
+    }
+}
